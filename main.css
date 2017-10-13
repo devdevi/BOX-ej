@@ -1,0 +1,69 @@
+/*hola*/
+/*usando class*/
+.azul{
+	background-color: blue;
+}
+/* css se comporta como en cajas
+el espacio entre caja y caja se llama Margin.
+Lo que se encuentre en el mismo bloque son padding
+y lo que rodea el bloque 
+
+
+
+/*cambiando colores a las etiquetas*/
+h1,p{
+	color:black;
+}
+/* le sacamos la linea al enlace*/
+a{
+	color:white;
+	text-decoration: none;
+}
+/*USANDO ID*/
+#titulo{
+	background-color: red;
+}
+/*Llamando al li siguiente del primero*/
+li:first-of-type + li{
+	color:white;
+}
+/*llamando al primer hijo de ol*/
+ol li:first-child{
+	color:green;
+}
+/*llamando al ultimo hijo de ol*/
+li:last-child{
+	color:yellow;
+}
+.caja{
+	text-align: center;
+	font-size: 1em;
+	color:black;
+	padding: 1em;
+	border: 0.5em solid ;
+}
+.caja2{
+
+	background-color:black;
+	color:white;
+	padding-top:1em;
+	/*margin-top:1em;*/
+	text-align: center;
+	font-size: 2em;
+	padding: 1em;
+	border: 1em double pink ;
+
+}
+
+body{
+	margin:0;
+}
+.klly{
+
+	padding-top:1em;
+	text-align: center;
+	font-size: 2em;
+	padding: 1em;
+	border:1em dashed;
+
+}
